@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: "rjmdb-config-server"
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/AmitBarlev/RJMDB-config.git
+server:
+  port: 8888
